@@ -1,11 +1,12 @@
 ---
+description: Welcome to the MobiusFlow documentation.
 cover: .gitbook/assets/MobiusFlow Banner.png
 coverY: -80.64990328820116
 ---
 
 # Welcome
 
-Welcome to the **Mobius**Flow documentation.&#x20;
+
 
 ### Documentation Spaces
 
