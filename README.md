@@ -1,5 +1,5 @@
 ---
-description: Welcome to the MobiusFlow documentation.
+description: Welcome to the MobiusFlow® documentation.
 cover: .gitbook/assets/MobiusFlow Banner.png
 coverY: -107.60211441516265
 ---
