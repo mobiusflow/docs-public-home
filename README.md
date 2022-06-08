@@ -1,6 +1,6 @@
 ---
-cover: .gitbook/assets/Screenshot 2022-06-08 at 15.27.21.png
-coverY: -82.7467845659164
+cover: .gitbook/assets/MobiusFlow Banner.png
+coverY: -80.64990328820116
 ---
 
 # Welcome
