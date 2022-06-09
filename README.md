@@ -16,8 +16,6 @@ coverY: -107.60211441516265
 [Engine Rest API Documentation](https://app.gitbook.com/o/Ljo8WJMp69oya1aPq2bi/s/wQcZFxWoPQGqqLPXn40V/)
 {% endcontent-ref %}
 
-Staging test
-
 {% hint style="info" %}
 **Navigating this site**
 
