@@ -38,10 +38,9 @@ Open a web browser and type **192.168.4.1** into the address bar and hit enter. 
 
 ### Configure Sensor Page
 
-|   |   |   |
-| - | - | - |
-|   |   |   |
-|   |   |   |
+|                                                      |   |   |
+| ---------------------------------------------------- | - | - |
+| ![](<../.gitbook/assets/SEN023 - Config Sensor.png>) |   |   |
 
 ### Set Config Mode Password Page <a href="#set_config_mode_password_page" id="set_config_mode_password_page"></a>
 
