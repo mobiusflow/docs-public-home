@@ -38,19 +38,18 @@ Open a web browser and type **192.168.4.1** into the address bar and hit enter. 
 
 ### Configure Sensor Page
 
-|                                                      |   |   |
-| ---------------------------------------------------- | - | - |
-| ![](<../.gitbook/assets/SEN023 - Config Sensor.png>) |   |   |
+| ![](<../.gitbook/assets/SEN023 - Config Sensor.png>) |   |
+| ---------------------------------------------------- | - |
 
 ### Set Config Mode Password Page <a href="#set_config_mode_password_page" id="set_config_mode_password_page"></a>
 
-|   | <p>The <strong>Set Config Mode Password</strong> page allows you change the configuration mode WiFi password.</p><p>Enter a new password and confirm it. The password must be at least 8 characters long.</p><p>Click <strong>Save</strong> to update the password or <strong>Cancel</strong> to ignore any changes </p><p><strong>Note:</strong> It is not possible to recover this password if you forget it. You will have to perform a factory reset</p> |
-| - | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| ![](<../.gitbook/assets/SEN023 - Config Password.png>) | <p>The <strong>Set Config Mode Password</strong> page allows you change the configuration mode WiFi password.</p><p>Enter a new password and confirm it. The password must be at least 8 characters long.</p><p>Click <strong>Save</strong> to update the password or <strong>Cancel</strong> to ignore any changes </p><p><strong>Note:</strong> It is not possible to recover this password if you forget it. You will have to perform a factory reset</p> |
+| ------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 
 ### About Page <a href="#about_page" id="about_page"></a>
 
-|   | <p>The <strong>About</strong> page shows details such as the MAC Addresses of the network interfaces and which modules are installed.</p><p>Where applicable, additional information such as the EnOcean chip ID are also shown</p><p>Click <strong>Update Firmware</strong> to update the connector's firmware</p> |
-| - | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ![](<../.gitbook/assets/SEN023 - Config About.png>) | <p>The <strong>About</strong> page shows details such as the MAC Addresses of the network interfaces and which modules are installed.</p><p>Where applicable, additional information such as the EnOcean chip ID are also shown</p><p>Click <strong>Update Firmware</strong> to update the connector's firmware</p> |
+| --------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 
 ### Factory Reset <a href="#factory_reset" id="factory_reset"></a>
 
