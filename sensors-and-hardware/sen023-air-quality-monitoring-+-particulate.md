@@ -33,8 +33,8 @@ Open a web browser and type **192.168.4.1** into the address bar and hit enter. 
 
 ### Configure MQTT Page <a href="#configure_mobius_page" id="configure_mobius_page"></a>
 
-| ![](<../.gitbook/assets/SEN023 - Config MQTT.png>) | <p></p><p>The <strong>Configure MQTT</strong> page is used to setup the connection between the Sensor and an MQTT Broker. It has the following options:</p><ul><li><strong>Topic</strong> - the MQTT topic used by the sensor. </li></ul><ul><li><strong>Addr / URL</strong> - the <em>TCP/IP Address</em> or <em>URL</em> of the Gateway</li><li><strong>Port</strong> - the <em>TCP/IP Port</em> that has been configured in the Sensor Gateway Service on the Gateway</li><li><strong>Security</strong> - select whether TLS and Client Certificates should be used. Before selecting these options ensure that you have added the relevant certificates</li><li><strong>Description</strong> - an optional field which maps to the Description field in the Connector Status Object in the Gateway</li><li><strong>Location</strong> - an optional field which maps to the Location field in the Connector Status Object in the Gateway</li><li><strong>Save</strong> - click <em>Save</em> to save these settings</li><li><strong>Cancel</strong> - click <em>Cancel</em> to ignore any changes</li></ul> |
-| -------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ![](<../.gitbook/assets/SEN023 - Config MQTT.png>) | <p></p><p>The <strong>Configure MQTT</strong> page is used to setup the connection between the Sensor and an MQTT Broker. It has the following options:</p><ul><li><strong>Topic</strong> - the MQTT topic used by the sensor. </li><li><strong>Addr / URL</strong> - the <em>TCP/IP Address</em> or <em>URL</em> of the Broker</li><li><strong>Port</strong> - the <em>TCP/IP Port</em> of the Broker</li><li><strong>Username</strong> - The MQTT Broker username</li><li><strong>Password</strong> - The MQTT Broker password</li><li><strong>Security</strong> - select whether TLS and Client Certificates should be used. Before selecting these options ensure that you have added the relevant certificates</li><li><strong>Save</strong> - click <em>Save</em> to save these settings</li><li><strong>Cancel</strong> - click <em>Cancel</em> to ignore any changes</li></ul> |
+| -------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 
 ### Configure Sensor Page
 
@@ -48,22 +48,20 @@ Open a web browser and type **192.168.4.1** into the address bar and hit enter. 
 
 ### About Page <a href="#about_page" id="about_page"></a>
 
-| ![](<../.gitbook/assets/SEN023 - Config About.png>) | <p>The <strong>About</strong> page shows details such as the MAC Addresses of the network interfaces and which modules are installed.</p><p>Where applicable, additional information such as the EnOcean chip ID are also shown</p><p>Click <strong>Update Firmware</strong> to update the connector's firmware</p> |
-| --------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ![](<../.gitbook/assets/SEN023 - Config About.png>) | <p>The <strong>About</strong> page shows details such as the MAC Addresses of the network interfaces.</p><p>Click <strong>Update Firmware</strong> to update the connector's firmware</p> |
+| --------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 
 ### Factory Reset <a href="#factory_reset" id="factory_reset"></a>
 
-It is possible to factory reset a Connector. This will clear all settings including the configuration mode WiFi password.
+It is possible to factory reset a Sensor. This will clear all settings including the configuration mode WiFi password.
 
-To reset the Connector, hold in the **Configuration Button** for 6 seconds. The **MobiusFlow Connected** indicator will start to flashing rapidly to indicate that the Connector is in configuration mode. Do not release the button until you see the power up self-check indicator light pattern.
+To reset the Connector, hold in the **Configuration Button** for 6 seconds.
 
 ## MQTT Payload
 
 ### MQTT Topic
 
-The topic is user definable in the sensor configuration, but always starts with **iaqmp/**.&#x20;
-
-e.g. `iaqmp/sensor1` where the sensor configuration contains **sensor1** in the MQTT topic field.
+The topic is user definable in the sensor configuration
 
 ### MQTT Payload&#x20;
 
