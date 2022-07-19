@@ -6,7 +6,7 @@
 The Connector will automatically exit configuration mode and reboot after 10 minutes.
 {% endhint %}
 
-The Connector is configured using a web browser to view the configuration pages served by the Connector's onboard web server. To activate this web server press and hold the **Configuration Button** using a small pin. Release the button as soon as the **Network Connected** indicator (green LED) starts flashing rapidly (ten times per second).
+The Connector is configured using a web browser to view the configuration pages served by the Connector's onboard web server. To activate this web server press and hold the **Configuration Button** using a small pin. Release the button as soon as display on the sensor indicates that it is in configuration mode (bottom right).&#x20;
 
 Once the Connector is in configuration mode it will create a WiFi access point. Using a mobile phone, tablet, or laptop search for a WiFi network with the same name as the Connector's serial number (the serial number can be found on a label on the side of the Connector). Enter the WiFi password if required to complete the WiFi connection.
 
@@ -56,6 +56,10 @@ Open a web browser and type **192.168.4.1** into the address bar and hit enter. 
 It is possible to factory reset a Sensor. This will clear all settings including the configuration mode WiFi password.
 
 To reset the Connector, hold in the **Configuration Button** for 6 seconds.
+
+## WiFi and MQTT Indicators
+
+During normal operation the WiFi and MQTT indicators will change from grey to green to show that they are connected.
 
 ## MQTT Payload
 
